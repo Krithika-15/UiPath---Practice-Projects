@@ -1,0 +1,6 @@
+{
+  "Name": "Separate Invoice by Company Code",
+  "ProjectType": "Process",
+  "Description": "To separate the invoices by company code and move them into dedicated folders by using Switch.",
+  "MainFile": "Main.xaml"
+}
