@@ -1,0 +1,6 @@
+{
+  "Name": "Switch",
+  "ProjectType": "Process",
+  "Description": "UiPath Automation Explorer",
+  "MainFile": "Main.xaml"
+}
