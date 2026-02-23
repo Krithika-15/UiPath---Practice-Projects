@@ -1,0 +1,6 @@
+{
+  "Name": "Separate Error Code",
+  "ProjectType": "Process",
+  "Description": "Separate error codes stored in an array of strings based on their type (\"Ax\", \"Bx\", or \"Cx\") and store them in three different arrays.",
+  "MainFile": "Main.xaml"
+}
