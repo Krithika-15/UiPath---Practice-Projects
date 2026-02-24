@@ -17,15 +17,15 @@ The projects focus on building strong fundamentals in RPA development, including
 
 Automates invoice classification by extracting company code and year from file names and organizing them into structured folders.
 
-## 2️⃣ Separate Invoice by Company Code
+### 2️⃣ Separate Invoice by Company Code
 
 Sorts invoices into company-specific folders using conditional logic and file system activities.
 
-## 3️⃣ Error Code Classification
+### 3️⃣ Error Code Classification
 
 Processes an array of error codes and categorizes them based on prefixes ("Ax", "Bx", "Cx") into separate arrays.
 
-## 4️⃣ Employee Salary Consolidation and Increment Automation
+### 4️⃣ Employee Salary Consolidation and Increment Automation
 
 Reads multiple Excel files, consolidates employee data, filters the Marketing department, calculates salary increments, and generates an updated report.
 
