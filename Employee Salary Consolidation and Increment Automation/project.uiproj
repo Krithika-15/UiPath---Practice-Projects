@@ -1,0 +1,6 @@
+{
+  "Name": "Employee Salary Consolidation and Increment Automation",
+  "ProjectType": "Process",
+  "Description": "This UiPath automation project reads multiple employee Excel reports from a folder, consolidates the data into a single master dataset, filters employees belonging to the Marketing department, applies a salary increment to them, and generates an updated output report.",
+  "MainFile": "Main.xaml"
+}
