@@ -1,7 +1,7 @@
 # Separate Error Codes
 
 ## 📌 Description
-This project Separate error codes stored in an array of strings based on their type ("Ax", "Bx", or "Cx") and store them in three different arrays.
+This project Separates error codes stored in an array of strings based on their type ("Ax", "Bx", or "Cx") and store them in three different arrays.
 
 ## Activities Used
 - Assign
