@@ -4,6 +4,7 @@
   "description": "This UiPath automation project reads multiple employee Excel reports from a folder, consolidates the data into a single master dataset, filters employees belonging to the Marketing department, applies a salary increment to them, and generates an updated output report.",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "[3.3.1]",
     "UiPath.System.Activities": "[25.12.2]"
   },
   "webServices": [],
