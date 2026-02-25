@@ -13,21 +13,26 @@ The projects focus on building strong fundamentals in RPA development, including
 
 
 ## 📂 Projects Overview
-### 1️⃣ Separate Invoice by Company Code and Year
+### 1. Separate Invoice by Company Code and Year
 
 Automates invoice classification by extracting company code and year from file names and organizing them into structured folders.
 
-### 2️⃣ Separate Invoice by Company Code
+### 2️. Separate Invoice by Company Code
 
 Sorts invoices into company-specific folders using conditional logic and file system activities.
 
-### 3️⃣ Error Code Classification
+### 3️. Error Code Classification
 
 Processes an array of error codes and categorizes them based on prefixes ("Ax", "Bx", "Cx") into separate arrays.
 
-### 4️⃣ Employee Salary Consolidation and Increment Automation
+### 4️. Employee Salary Consolidation and Increment Automation
 
 Reads multiple Excel files, consolidates employee data, filters the Marketing department, calculates salary increments, and generates an updated report.
+
+### 5. Vegetable Value Calculator
+
+Excel Inventory Valuation Bot is a UiPath automation project that reads vegetable production data from an Excel file using Workbook activities, calculates the estimated product value by multiplying Quantity and Price per Kg, adds the result as a new column in a DataTable, and writes the updated data into a new worksheet.
+
 
 ## 🎯 Skills Demonstrated
 
