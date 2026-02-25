@@ -1,0 +1,6 @@
+{
+  "Name": "Sales and Acquisitions Consolidation Report Bot",
+  "ProjectType": "Process",
+  "Description": "This UiPath automation consolidates data from two separate Excel files — Acquisitions and Sales — and generates a structured monthly performance report. The process removes duplicates, merges data into a single report workbook, calculates key business metrics, formats the data, creates a Pivot Table with summary insights, inserts a chart, and protects the final sheets.",
+  "MainFile": "Main.xaml"
+}
