@@ -1,0 +1,6 @@
+{
+  "Name": "Vegetable Value Calculator",
+  "ProjectType": "Process",
+  "Description": "Excel Inventory Valuation Bot is a UiPath automation project that reads vegetable production data from an Excel file using Workbook activities, calculates the estimated product value by multiplying Quantity and Price per Kg, adds the result as a new column in a DataTable, and writes the updated data into a new worksheet.",
+  "MainFile": "Main.xaml"
+}
