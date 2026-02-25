@@ -1,43 +1,35 @@
 # Vegetable Value Calculator
 
 ## Overview
-This UiPath automation reads a vegetable production Excel file, calculates the **Estimated Value** for each record by multiplying **Quantity × Price per Kg**, and writes the updated data into a **new/updated worksheet**.
+This UiPath automation reads a vegetable production Excel file, calculates the **Estimated Value** (Quantity × Price per Kg), updates the workbook, and generates a Pivot Table with a stacked column chart for summary reporting.
 
-## Input File
-- **File:** `VegetablesProduction.xlsx`
-- **Sheet:** `Tracker`
-- **Columns Used:**
-  - `Quantity`
-  - `Price per Kg`
+## Input
+- File: `VegetablesProduction.xlsx`
+- Sheet: `Tracker`
+- Key Columns:
+  - Quantity
+  - Price per Kg
+  - Vendor Name
+  - Production Month
+  - Storage Zone
+
+## Process
+1. Read Excel data into a DataTable  
+2. Check if **Estimated Value** column exists  
+3. Add column (if not present)  
+4. Calculate Estimated Value for each row  
+5. Write updated data back to Excel  
+6. Create Pivot Table summary  
+7. Insert and update chart  
 
 ## Output
-- Adds a new column: **Estimated Value**
-- Writes the updated DataTable back to Excel (to a new sheet or updated sheet as configured)
+- Updated worksheet with calculated values  
+- Pivot Table summary  
+- Stacked column chart titled **"Estimated Sales"**
 
-## Workflow Logic
-1. **Read Range Workbook** → Reads data from Excel into a DataTable (`dt_VegetablesData`)
-2. **Add Data Column** → Adds a new column named `Estimated Value`
-3. **For Each Row in DataTable**
-   - Calculates: `Estimated Value = Quantity * Price per Kg`
-   - Stores result into the new column
-4. **Write Range Workbook** → Writes the updated DataTable to Excel
-
-## Activities Used
-- Read Range Workbook
-- Add Data Column
-- For Each Row in DataTable
-- Assign
-- Write Range Workbook
-
-## How to Run
-1. Open the project in **UiPath Studio**
-2. Place `VegetablesProduction.xlsx` in the project folder (or update the file path in the workflow)
-3. Run the workflow
-4. Check the output sheet in the same Excel file
-
-## Notes
-- Ensure the column names match exactly: `Quantity` and `Price per Kg`
-- Recommended data types:
-  - Quantity: Integer
-  - Price per Kg: Decimal
-  - Estimated Value: Decimal
+## Key Features
+- Re-runnable workflow  
+- Automated calculation logic  
+- Pivot-based summarization  
+- Chart generation  
+- End-to-end Excel reporting automation
