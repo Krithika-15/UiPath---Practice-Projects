@@ -41,6 +41,11 @@ This UiPath automation reads transaction data from an Excel file, enters the val
 This UiPath automation logs into the ACME Test System, searches for invoice details using invoice numbers from an Excel file, extracts relevant invoice data, and updates the same Excel file with the extracted information.
 The automation demonstrates end-to-end web automation, data extraction, DataTable manipulation, and Excel integration.
 
+### 8. UiBank Loan_Using Web Recorders
+This UiPath project demonstrates how to use the App/Web Recorder to automate a complete loan application process in a web browser.
+The automation opens the UiBank Loan website, fills in required details, submits the application, extracts the generated Loan ID, and displays it in a message box.
+
+
 ## 🎯 Skills Demonstrated
 
 - File and folder automation
