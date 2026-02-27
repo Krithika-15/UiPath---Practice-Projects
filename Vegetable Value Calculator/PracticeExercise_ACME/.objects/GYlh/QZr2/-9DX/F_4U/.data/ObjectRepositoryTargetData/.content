@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4iS9-jYRekakrcWwCUIh5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/invoices/search" CVScreenId="24e154d2-e326-4928-bed4-8bfcc4a04005" CvElementArea="274, 1149, 147, 73" CvTextArea="301, 1171, 92, 26" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="278, 1152, 141, 68" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='buttonSearch' tag='BUTTON' /&gt;" Guid="98b9ee71-8ba9-438b-af00-cb326cc15d80" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Search' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="24e154d2-e326-4928-bed4-8bfcc4a04005" CvElementArea="423, 1148, 298, 74" CvTextArea="451, 1171, 242, 32" CvTextArgument="Display All Invoices" CvType="Button" DesignTimeRectangle="427, 1152, 291, 68" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='buttonShowAll' tag='BUTTON' type='button' class='btn btn-secondary' aaname='Display All Invoices' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Display All Invoices' /&gt;" Guid="38fe34ad-37c5-4c2c-a2b5-7abdc81ee2f4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b9f3db95b9f440c57ada59e7a2d572fd.png" xmlns="">00GvHnswmF0mmlQIUMqI5hg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

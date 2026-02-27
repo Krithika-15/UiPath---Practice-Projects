@@ -1,0 +1,6 @@
+{
+  "Name": "PracticeExercise_ACME",
+  "ProjectType": "Process",
+  "Description": "Logging into ACME webpage and extracting the Vendor Details for Invoice Number",
+  "MainFile": "Main.xaml"
+}

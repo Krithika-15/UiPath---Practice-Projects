@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge ACME System 1 - Log In",
+  "Type": "Screen",
+  "Id": "b9202VGO1Uq5EHjJf7wC_A",
+  "Reference": "bKMeYaUMq0a2659Udk4T6A/b9202VGO1Uq5EHjJf7wC_A",
+  "ParentRef": "bKMeYaUMq0a2659Udk4T6A/QZr24N0v5Em05W3PZCzhpw",
+  "Created": "2025-12-18T09:37:31.2064819Z",
+  "Updated": "2025-12-18T09:37:31.2064819Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -37,6 +37,9 @@ This UiPath automation reads a vegetable production Excel file, calculates the *
 
 This UiPath automation reads transaction data from an Excel file, enters the values into a desktop application (DoubleUI), retrieves the generated Transaction Number, and writes it back into the same Excel file.
 
+### 7. Invoice Details Extraction_ACME System
+This UiPath automation logs into the ACME Test System, searches for invoice details using invoice numbers from an Excel file, extracts relevant invoice data, and updates the same Excel file with the extracted information.
+The automation demonstrates end-to-end web automation, data extraction, DataTable manipulation, and Excel integration.
 
 ## 🎯 Skills Demonstrated
 

@@ -1,0 +1,6 @@
+{
+  "Name": "Invoice Details Extraction_ACME System",
+  "ProjectType": "Process",
+  "Description": "Logging into ACME webpage and extracting the Vendor Details for Invoice Number",
+  "MainFile": "Main.xaml"
+}
