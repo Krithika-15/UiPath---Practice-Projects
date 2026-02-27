@@ -1,0 +1,6 @@
+{
+  "Name": "Excel-to-Desktop Transaction Bot",
+  "ProjectType": "Process",
+  "Description": "Build automation to deposit a transaction in the Double UI Application.",
+  "MainFile": "Main.xaml"
+}

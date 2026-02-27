@@ -33,6 +33,10 @@ Reads multiple Excel files, consolidates employee data, filters the Marketing de
 
 This UiPath automation reads a vegetable production Excel file, calculates the **Estimated Value** (Quantity × Price per Kg), updates the workbook, and generates a Pivot Table with a stacked column chart for summary reporting.
 
+### 6. Excel-to-Desktop Transaction Bot
+
+This UiPath automation reads transaction data from an Excel file, enters the values into a desktop application (DoubleUI), retrieves the generated Transaction Number, and writes it back into the same Excel file.
+
 
 ## 🎯 Skills Demonstrated
 

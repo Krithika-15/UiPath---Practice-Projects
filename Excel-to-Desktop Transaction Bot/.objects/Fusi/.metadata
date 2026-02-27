@@ -1,0 +1,12 @@
+﻿{
+  "Name": "DoubleUI",
+  "Type": "App",
+  "Id": "FusixLS93E2LcGPExFhtlw",
+  "Reference": "Rd4poN0-h0Okh4AoZAE-tQ/FusixLS93E2LcGPExFhtlw",
+  "Created": "2026-02-26T10:19:20.741504Z",
+  "Updated": "2026-02-26T10:19:20.741504Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
