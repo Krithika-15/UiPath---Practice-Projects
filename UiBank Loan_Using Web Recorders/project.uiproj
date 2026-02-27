@@ -1,0 +1,6 @@
+{
+  "Name": "UiBank Loan_Using Web Recorders",
+  "ProjectType": "Process",
+  "Description": "This UiPath project demonstrates how to use the App/Web Recorder to automate a complete loan application process in a web browser.\nThe automation opens the UiBank Loan website, fills in required details, submits the application, extracts the generated Loan ID, and displays it in a message box.",
+  "MainFile": "Main.xaml"
+}
