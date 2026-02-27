@@ -14,8 +14,8 @@ To understand and practice:
 - Extracting dynamic values from web pages
 
 ## Application Used
-Browser: Chrome
-URL: https://uibank.uipath.com/loans
+- Browser: Chrome
+- URL: https://uibank.uipath.com/loans
 
 ## Workflow Steps
 1. Use Browser (Chrome)
