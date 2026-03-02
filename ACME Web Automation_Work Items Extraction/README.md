@@ -1,197 +1,145 @@
-ACME End-to-End Invoice & Work Items Automation
-📌 Overview
+# ACME End-to-End Invoice & Work Items Automation
+
+## Overview
 
 This UiPath automation project (Modern Design Experience) performs end-to-end web data extraction from the ACME system.
 
 The bot:
 
-Logs into the ACME portal
+- Logs into the ACME portal  
+- Processes invoice numbers from an input Excel file  
+- Extracts invoice details  
+- Generates an invoice report  
+- Extracts Work Items table data  
+- Saves structured Excel outputs in the project folder  
+- Logs out securely  
 
-Processes invoice numbers from an input Excel file
+---
 
-Extracts invoice details
-
-Generates an invoice report
-
-Extracts Work Items table data
-
-Saves structured Excel outputs in the project folder
-
-Logs out securely
-
-🎯 Business Objective
+## Business Objective
 
 To automate the manual process of:
 
-Searching invoices individually
-
-Copying invoice details
-
-Extracting Work Items table data
-
-Preparing Excel reports
+- Searching invoices individually  
+- Copying invoice details  
+- Extracting Work Items table data  
+- Preparing Excel reports  
 
 This automation improves processing speed, reduces manual errors, and ensures structured reporting.
 
-🏗 Project Structure
-Main.xaml
+---
 
-Controls the entire process flow:
+## Project Structure
 
-Login
+### Main.xaml
 
-Navigate to Invoice Search
+Controls the entire execution flow:
 
-Process invoices
+1. Login to ACME  
+2. Navigate to Invoice Search  
+3. Process all invoices  
+4. Write invoice output  
+5. Extract Work Items data  
+6. Logout  
 
-Write invoice output
+---
 
-Extract Work Items
+## Invoice Processing Workflow
 
-Logout
+### Input
 
-📂 Modular Workflows
+- File: `Vendor_ID_Input.xlsx`  
+- Location: `Input` folder  
+- Contains: Invoice Numbers  
 
-ACME_WebPage_Login.xaml
+### Process
 
-Navigate_To_Search_Invoice.xaml
-
-Search_For_Current_InvoiceNumber.xaml
-
-Extract_InvoiceDetails.xaml
-
-Navigate_BackTo_Search_Invoice.xaml
-
-Extract_WorkItems.xaml
-
-ACME_WebPage_LogOut.xaml
-
-Each workflow is designed for reusability and clean separation of responsibilities.
-
-🔄 Functional Workflow
-1️⃣ Login Process
-
-Prompts user for email and password
-
-Logs into ACME web portal
-
-2️⃣ Invoice Processing
-Step 1: Read Input File
-
-Reads invoice numbers from:
-
-Input\Vendor_ID_Input.xlsx
-
-Stores data in DataTable: dt_InvoiceNumbers
-
-Step 2: Process Each Invoice
-
-For each invoice number:
-
-Search invoice in ACME
-
-Extract:
-
-Vendor Tax ID
-
-Invoice Item
-
-Total Amount
-
-Invoice Date
-
-Update the corresponding row in dt_InvoiceNumbers
-
-Navigate back to Search page
-
-Step 3: Write Invoice Output
-
-After completing the loop:
-
-Writes updated dt_InvoiceNumbers to:
-
+1. Read invoice numbers into DataTable `dt_InvoiceNumbers`
+2. For each invoice number:
+   - Search invoice in ACME
+   - Extract:
+     - Vendor Tax ID
+     - Invoice Item
+     - Total Amount
+     - Invoice Date
+   - Update the corresponding row in the DataTable
+   - Navigate back to search page
+3. After completing the loop, write updated DataTable to:
 Output\Invoice_Data_Extraction.xlsx
 
-✅ Writing is done outside the loop for better performance and to prevent Excel locking issues.
 
-3️⃣ Work Items Table Extraction
+> Writing to Excel is performed **outside the loop** to improve performance and avoid Excel locking issues.
 
-Navigates to Work Items page
+---
 
-Extracts table fields:
+## Work Items Extraction Workflow
 
-WIID
-
-Description
-
-Type
-
-Status
-
-Date
-
-Writes output to:
-
+1. Navigate to Home → Work Items page  
+2. Extract table fields:
+   - WIID  
+   - Description  
+   - Type  
+   - Status  
+   - Date  
+3. Write extracted data to:
 Output\Work_Items_Data_<Date>.xlsx
-4️⃣ Logout
 
-Logs out from ACME system
 
-Closes session cleanly
+---
 
-📥 Input & 📤 Output
-Input
+## Modular Workflow Files
 
-Vendor_ID_Input.xlsx (Contains invoice numbers)
+- `ACME_WebPage_Login.xaml`  
+- `Navigate_To_Search_Invoice.xaml`  
+- `Search_For_Current_InvoiceNumber.xaml`  
+- `Extract_InvoiceDetails.xaml`  
+- `Navigate_BackTo_Search_Invoice.xaml`  
+- `Extract_WorkItems.xaml`  
+- `ACME_WebPage_LogOut.xaml`  
+- `Main.xaml`  
 
-Output
+Each workflow is modularized for reusability and clean separation of responsibilities.
 
-Invoice_Data_Extraction.xlsx
+---
 
-Work_Items_Data_<Date>.xlsx
+## Output
 
-All files are stored inside the project Input and Output folders.
+- `Invoice_Data_Extraction.xlsx`  
+- `Work_Items_Data_<Date>.xlsx`  
 
-🛠 Key Technical Concepts Used
+All output files are stored inside the `Output` folder.
 
-Modern Design Experience
+---
 
-Use Application/Browser
+## Key Technical Concepts Used
 
-Invoke Workflow
+- Modern Design Experience  
+- Use Application/Browser  
+- Invoke Workflow File  
+- For Each Row in DataTable  
+- Multiple Assign  
+- Table Extraction  
+- Excel (Modern & Workbook activities)  
+- Structured logging  
+- Modular architecture  
 
-For Each Row in DataTable
+---
 
-Multiple Assign
+## Performance Optimization
 
-Table Extraction
+- DataTable is updated in memory during invoice processing.
+- Excel write operation is executed only once after loop completion.
+- Modular XAML design improves maintainability and scalability.
 
-Excel (Workbook & Modern Excel activities)
+---
 
-Structured Logging
-
-Modular workflow architecture
-
-⚡ Performance Optimization
-
-DataTable is updated in memory during the loop.
-
-Excel write operation is executed only once after loop completion.
-
-Modular XAML design improves maintainability and scalability.
-
-📚 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
 
-End-to-end web automation
-
-Excel-driven transaction processing
-
-Structured data extraction
-
-Table extraction techniques
-
-Clean orchestration logic
-
-Professional RPA project structuring
+- End-to-end web automation  
+- Excel-driven transaction processing  
+- Structured data extraction  
+- Table extraction techniques  
+- Clean orchestration logic  
+- Professional RPA project structuring  
