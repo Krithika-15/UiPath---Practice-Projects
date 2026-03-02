@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qtD46fRkmUWpq0yIx-N-Yg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/invoices/search" CVScreenId="f9391d22-6f09-4489-ba6c-efdcda89f508" CvTextArea="165, 607, 78, 26" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="168, 606, 75, 31" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Home' href='https://acme-test.uipath.com/home' tag='A' /&gt;" Guid="dccf3a3e-bac7-41f5-8e1f-e514835025a1" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Search' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f9391d22-6f09-4489-ba6c-efdcda89f508" CvTextArea="137, 453, 266, 62" CvTextArgument="Invoices" CvType="Text" DesignTimeRectangle="138, 447, 2280, 99" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-header' aaname='                                                                                                                                                                                     Invoices                                                         ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Invoices' /&gt;" Guid="8fde9c4a-cce3-495c-9e0f-27465d28b9f4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="23735a218e792ca0ccbc8c1a93a9b08c.jpg" xmlns="">0YyeldVunYkq7TbUlh2dZUQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

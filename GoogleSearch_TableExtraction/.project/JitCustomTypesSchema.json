@@ -1,0 +1,35 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 1,
+        "idRef": "NExtractDataGeneric`1_1",
+        "hash": "NExtractDataGeneric`1_1|DataTable|mdxz0Vu1Ye1tWOa9SrPYYddGTVaWiMJTl0j1B93QQc",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Video Title",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Video Title Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Date Uploaded",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable1",
+        "hash": "NExtractDataGeneric`1_1|DataTable|WKE52yRnncpfBuUhud9wxJLIxt0gAcIEmTnC0Uy5Q0",
+        "assemblyName": "Studio.Generated.TypedDataTable1"
+      }
+    }
+  ]
+}

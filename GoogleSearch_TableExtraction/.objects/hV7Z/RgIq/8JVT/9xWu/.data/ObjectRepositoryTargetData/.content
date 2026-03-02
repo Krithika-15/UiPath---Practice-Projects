@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="d2oanis2nEWthABniba3KQ" Reference="h1KnnkFgIEafMZV4neeXQA/9xWuQzES_UKxpPBaR1-zpQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com" CVScreenId="d660e421-4b0b-452b-8c39-7ba67cb608c3" CvElementArea="599, 642, 1366, 109" CvType="InputBox" DesignTimeRectangle="707, 649, 883, 100" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='APjFqb' tag='TEXTAREA' /&gt;" Guid="2446c479-ee94-4610-9ec1-261fd01088ae" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="880a487e-d45e-459c-a72d-3371213a50a3" CvTextArea="1011, 403, 556, 194" CvTextArgument="Google" CvType="Text" DesignTimeRectangle="1021, 411, 544, 184" ElementType="Icon" FullSelectorArgument="&lt;webctrl aria-role='img' tag='svg' /&gt;" Guid="48af3e2e-ea34-4b8f-9062-6a373aacd8c8" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f3ed6459effda623fc43639cc7d8470b.jpg" xmlns="">0yjSigWDHAkOUmmRvnFgdqA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

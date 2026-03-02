@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lpNm4WiyJE6Opq4MoaUu7w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com" CVScreenId="52c7df87-b3b2-4841-9c0a-57bf4d90c883" CvElementArea="1008, 804, 262, 78" CvTextArea="1045, 831, 190, 32" CvTextArgument="Google Search" CvType="Button" DesignTimeRectangle="1013, 809, 255, 72" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='button' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;center&amp;gt;input' tag='INPUT' type='submit' /&gt;" Guid="d460a407-bf14-466b-9ada-6f307a05acec" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="52c7df87-b3b2-4841-9c0a-57bf4d90c883" CvElementArea="1287, 804, 290, 79" CvTextArea="1323, 831, 218, 32" CvTextArgument="I'm Feeling Lucky" CvType="Button" DesignTimeRectangle="1292, 809, 281, 72" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-label='I&amp;apos;m Feeling Lucky' class='RNmpXc' tag='INPUT' type='submit' aaname='I&amp;apos;m Feeling Lucky' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='I&amp;apos;m Feeling Lucky' /&gt;" Guid="56137ccc-a562-4f0c-b7d3-4ca4aa0867cb" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ed5589f27f8412252d058b66847d7d32.jpg" xmlns="">08KpZHl_Lx0a3OVZHKKhNXQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

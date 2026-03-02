@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge ACME System 1 - Search",
+  "Type": "Screen",
+  "Id": "3Rf0epBypE6IDLt74xuLhg",
+  "Reference": "xc6eM-uOiEm5hwBQZwG7Sw/3Rf0epBypE6IDLt74xuLhg",
+  "ParentRef": "xc6eM-uOiEm5hwBQZwG7Sw/uEz2wHi1HE2t3dwnHfp3nA",
+  "Created": "2026-03-02T10:27:56.5416158Z",
+  "Updated": "2026-03-02T10:27:56.5416158Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

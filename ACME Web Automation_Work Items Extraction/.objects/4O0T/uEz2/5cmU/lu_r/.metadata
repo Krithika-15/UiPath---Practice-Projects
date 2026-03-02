@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Enter Mail Id",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "lu_rVUKlo0Kgsg87wIdouw",
+  "Reference": "xc6eM-uOiEm5hwBQZwG7Sw/lu_rVUKlo0Kgsg87wIdouw",
+  "ParentRef": "xc6eM-uOiEm5hwBQZwG7Sw/5cmUnjmp0kC4Pcnf3azTng",
+  "Created": "2026-03-02T08:56:26.2591368Z",
+  "Updated": "2026-03-02T08:56:26.2591368Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

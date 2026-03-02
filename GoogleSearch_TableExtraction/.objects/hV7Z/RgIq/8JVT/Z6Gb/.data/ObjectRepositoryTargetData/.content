@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FcvaBaxOjUuVaUMH5dHFJw" Reference="h1KnnkFgIEafMZV4neeXQA/Z6GbVlSTaEelHHtDXNm7XA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.google.com/search?sca_esv=418c586d894e4ddc&amp;sxsrf=ANbL-n6IIcXI86wfUJ6BaiJFXdrcBBluvA:1772196587726&amp;udm=7&amp;fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5MJRoosnbembaWTjeNSquLOZhTon_7OfxPbcsJCVC3BYTPuIrK4wGdo3JVy-3GtVpD3RiVZ-24xLTKF-h6JchR5BQXmBJYbbs_lKEV6zZXAx0AYUD-cc4_Kf3HJuFX_4qJJLwP695b09LFbRqDMICe9wtIF&amp;q=uipath+academy&amp;sa=X&amp;ved=2ahUKEwjGqdXg2vmSAxVYEhAIHX6BAqsQtKgLegQIFRAB&amp;biw=1280&amp;bih=613&amp;dpr=2#ip=1" DesignTimeRectangle="178, -21771, 1304, 25526" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='center_col' tag='DIV' /&gt;" Guid="7ab3377f-67c6-44c0-b4eb-af3a76f120a7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='uipath academy - Google Search' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fb3846add4e14c5c502536066f9b1bf8.jpg" xmlns="">07yoiSZnzOk21wszekkFvkQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">ExtractDataGeneric</x:String>
+    <x:Null x:Key="NextLinkTarget" />
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

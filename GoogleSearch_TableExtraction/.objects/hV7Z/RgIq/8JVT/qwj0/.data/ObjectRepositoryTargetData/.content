@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OsWtpXcn0k-QfFpebU_xOw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" CVScreenId="6376e38c-e19f-4aaa-ba87-42c9a37b8ed8" CvTextArea="413, 509, 92, 26" CvTextArgument="Videos" CvType="Text" DesignTimeRectangle="415, 505, 89, 62" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Videos' tag='SPAN' /&gt;" Guid="53dfe707-bcb5-4dbb-a4b4-7787c6c4c223" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPath Academy - Google Search' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6376e38c-e19f-4aaa-ba87-42c9a37b8ed8" CvTextArea="331, 509, 36, 26" CvTextArgument="All" CvType="Text" DesignTimeRectangle="334, 505, 33, 62" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='All' tag='SPAN' type='' class='R1QWuf' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='All' /&gt;" Guid="75aba7b8-3c21-4aa1-acd2-338711ea9b9f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fd5ba243f5725704e1ed42a9ba196675.jpg" xmlns="">0-Uame0BrV0yf9CjDD6wa_A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

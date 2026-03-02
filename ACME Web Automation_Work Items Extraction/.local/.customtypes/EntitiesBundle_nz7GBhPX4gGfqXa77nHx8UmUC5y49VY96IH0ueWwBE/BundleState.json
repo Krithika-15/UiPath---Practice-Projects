@@ -1,0 +1,40 @@
+{
+  "assemblyStates": {
+    "Studio.Generated.TypedDataTable3": {
+      "namespace": "System.Data",
+      "providerName": "TypedDataTable",
+      "key": {
+        "name": "Studio.Generated.TypedDataTable3",
+        "hash": "NExtractDataGeneric\u00601_3|DataTable|VdSZCR2rJl0txDZfIy3NjspkNxZp0kA2yRs9BVgkntk",
+        "assemblyName": "Studio.Generated.TypedDataTable3"
+      }
+    },
+    "Studio.Generated.TypedDataTable1": {
+      "namespace": "System.Data",
+      "providerName": "TypedDataTable",
+      "key": {
+        "name": "Studio.Generated.TypedDataTable1",
+        "hash": "NExtractDataGeneric\u00601_1|DataTable|VdSZCR2rJl0txDZfIy3NjspkNxZp0kA2yRs9BVgkntk",
+        "assemblyName": "Studio.Generated.TypedDataTable1"
+      }
+    },
+    "Studio.Generated.TypedDataTable2": {
+      "namespace": "System.Data",
+      "providerName": "TypedDataTable",
+      "key": {
+        "name": "Studio.Generated.TypedDataTable2",
+        "hash": "NExtractDataGeneric\u00601_2|DataTable|BJEgWhIeisdm5Ggy1nlxllT8UoPlE8BSLjFQwotdSE",
+        "assemblyName": "Studio.Generated.TypedDataTable2"
+      }
+    },
+    "Studio.Generated.TypedDataTable4": {
+      "namespace": "System.Data",
+      "providerName": "TypedDataTable",
+      "key": {
+        "name": "Studio.Generated.TypedDataTable4",
+        "hash": "NExtractDataGeneric\u00601_4|DataTable|VdSZCR2rJl0txDZfIy3NjspkNxZp0kA2yRs9BVgkntk",
+        "assemblyName": "Studio.Generated.TypedDataTable4"
+      }
+    }
+  }
+}

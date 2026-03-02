@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Invoice Number",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "cVXH9J2VlUuEaRPBFPNAXw",
+  "Reference": "xc6eM-uOiEm5hwBQZwG7Sw/cVXH9J2VlUuEaRPBFPNAXw",
+  "ParentRef": "xc6eM-uOiEm5hwBQZwG7Sw/3Rf0epBypE6IDLt74xuLhg",
+  "Created": "2026-03-02T10:28:11.1145878Z",
+  "Updated": "2026-03-02T10:28:11.1145878Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

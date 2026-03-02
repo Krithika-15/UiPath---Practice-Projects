@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yAMb9An3x0mlUFTjuh-_WQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/login" CVScreenId="69416589-5ceb-42bd-a75e-ad69132fe302" CvElementArea="274, 1185, 126, 72" CvTextArea="301, 1207, 72, 32" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="278, 1188, 121, 68" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="a8d1d08b-3a3f-4823-a903-72b66c7d2a29" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="69416589-5ceb-42bd-a75e-ad69132fe302" CvElementArea="402, 1184, 347, 74" CvTextArea="431, 1207, 294, 32" CvTextArgument="Forgot Your Password?" CvType="Button" DesignTimeRectangle="406, 1188, 343, 68" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                                 Forgot Your Password?                             ' tag='A' type='' class='btn bg-warning' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Forgot Your Password?' /&gt;" Guid="c3ed72fe-b7e7-4eaf-b864-bc4b9b6d17e0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="60a36934a71e3bbd9f2d2c7ee3b82763.jpg" xmlns="">0qjkod4_Lx0qvHiYTaYK8hg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

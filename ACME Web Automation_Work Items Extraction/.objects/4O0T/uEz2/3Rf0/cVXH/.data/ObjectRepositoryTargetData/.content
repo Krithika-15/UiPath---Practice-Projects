@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QSPbH1qmUEaynZMod9FLzg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/invoices/search" CVScreenId="251b380d-e7bc-436a-9db1-c161e6e1108a" CvElementArea="276, 1053, 974, 73" CvType="InputBox" DesignTimeRectangle="278, 1056, 970, 68" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='invoiceNumber' tag='INPUT' type='text' class='form-control' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="12ad9009-a9ff-428c-93b6-8aecb7c7ce69" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Search' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="251b380d-e7bc-436a-9db1-c161e6e1108a" CvTextArea="275, 1011, 222, 26" CvTextArgument="Invoice Number:" CvType="Text" DesignTimeRectangle="278, 1006, 219, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Invoice Number:' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Invoice Number:' /&gt;" Guid="126bef34-f228-4f07-b0f5-6a5cb053de2e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="95d6860c4ccc6e17b6774ea318e7ce08.jpg" xmlns="">0mgQREaNwp0Wywok88SVI9A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

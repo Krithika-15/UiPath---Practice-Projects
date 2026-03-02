@@ -1,0 +1,6 @@
+{
+  "Name": "ACME End-to-End Invoice and Work Item Automation",
+  "ProjectType": "Process",
+  "Description": "This UiPath automation project (Modern Design Experience) performs end-to-end web automation on the ACME system. The bot logs into the ACME portal, extracts work item data, processes invoice numbers from an Excel file, retrieves invoice details, and stores all extracted information into structured Excel reports.",
+  "MainFile": "Main.xaml"
+}
