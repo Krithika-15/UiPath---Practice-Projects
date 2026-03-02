@@ -1,4 +1,4 @@
-# ACME End-to-End Invoice & Work Items Automation
+# ACME End-to-End Invoice and Work Item Automation
 
 ## Overview
 
@@ -35,12 +35,13 @@ This automation improves processing speed, reduces manual errors, and ensures st
 
 Controls the entire execution flow:
 
-1. Login to ACME  
+1. Login to ACME Webpage
 2. Navigate to Invoice Search  
 3. Process all invoices  
 4. Write invoice output  
-5. Extract Work Items data  
-6. Logout  
+5. Navigate to Work Items Page
+6. Extract Work Items data  
+7. Logout  
 
 ---
 

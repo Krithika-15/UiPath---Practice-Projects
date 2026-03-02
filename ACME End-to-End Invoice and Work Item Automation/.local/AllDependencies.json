@@ -20857,11 +20857,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "ACME Web Automation_Work Items Extraction",
-      "projectName": "ACME Web Automation_Work Items Extraction",
-      "projectPath": "C:\\Users\\krith\\Documents\\UiPath\\UiPath Explorer Course\\Practice Projects Git\\ACME Web Automation_Work Items Extraction\\.local",
+      "projectUniqueName": "ACME End-to-End Invoice and Work Item Automation",
+      "projectName": "ACME End-to-End Invoice and Work Item Automation",
+      "projectPath": "C:\\Users\\krith\\Documents\\UiPath\\UiPath Explorer Course\\Practice Projects Git\\ACME End-to-End Invoice & Work Items Automation\\.local",
       "packagesPath": "C:\\Users\\krith\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\krith\\Documents\\UiPath\\UiPath Explorer Course\\Practice Projects Git\\ACME Web Automation_Work Items Extraction\\.local",
+      "outputPath": "C:\\Users\\krith\\Documents\\UiPath\\UiPath Explorer Course\\Practice Projects Git\\ACME End-to-End Invoice & Work Items Automation\\.local",
       "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IlEar5IjQms=",
+  "dgSpecHash": "BlcHj784V3E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\krith\\Documents\\UiPath\\UiPath Explorer Course\\Practice Projects Git\\ACME Web Automation_Work Items Extraction\\.local\\",
+  "projectFilePath": "C:\\Users\\krith\\Documents\\UiPath\\UiPath Explorer Course\\Practice Projects Git\\ACME End-to-End Invoice & Work Items Automation\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\krith\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\krith\\.nuget\\packages\\closedxml\\0.105.0\\closedxml.0.105.0.nupkg.sha512",
